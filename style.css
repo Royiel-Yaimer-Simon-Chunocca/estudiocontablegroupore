@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Copperplate&display=swap');
+.menu {
+    background-color: #333; /* Color de fondo negro claro */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    color: #fff; /* Color de texto blanco */
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.menu-icono {
+    cursor: pointer;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    font-family: 'Copperplate', 'Courier New', Courier, monospace;
+}
+
+.navbar li {
+    margin-left: 15px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #fff; /* Color de texto blanco */
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar li a:hover {
+    color: #ff6666; /* Color de texto rojo claro al poner el cursor */
+}
+.btn-1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6666; /* Fondo rojo claro */
+    color: #fff; /* Color de letra blanco */
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin: 0 220px; /* Espaciado de 3 unidades a la izquierda y a la derecha */
+}
+
+.btn-1:hover {
+    background-color: #e63c3c; /* Fondo rojo claro más oscuro al poner el cursor */
+}
+.menu {
+    background-color: #000; /* Color de fondo negro claro */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    color: #fff; /* Color de texto blanco */
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.menu-icono {
+    cursor: pointer;
+}
+
+.navbar {
+    list-style: none;
+}
+
+.navbar li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #fff; /* Color de texto blanco */
+    transition: color 0.3s ease; /* Transición de color */
+    font-weight: bold;
+}
+
+.navbar li a:hover {
+    color: #ff6666; /* Color de texto rojo claro al poner el cursor */
+}
+
+/* Estilos para el carrusel de imágenes */
+.carousel {
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide {
+    display: none;
+    width: 100%;
+
+}
+
+.slide.active {
+    display: block;
+}
+
+
+
+/* para formulario*/
+.contact-form {
+    margin-top: 30px;
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+button[type="submit"] {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6666; /* Fondo rojo claro */
+    color: #fff; /* Color de letra blanco */
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin: 0 220px; /* Espaciado de 3 unidades a la izquierda y a la derecha */
+    font-family: 'Copperplate', 'Courier New', Courier, monospace;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+button[type="submit"]:hover {
+    background-color: #a04545;
+}
+/*es para texto*/
+.header-text {
+    position: absolute;
+    top: 50%; /* Centrar verticalmente */
+    left: 50%; /* Centrar horizontalmente */
+    transform: translate(-50%, -50%);
+    width: 90%; /* Ajustar el ancho según tus necesidades */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semi-transparente */
+    padding: 20px;
+    text-align: justify; /* Justificar el texto */
+    transition: opacity 0.2s ease; /* Transición de opacidad */
+    font-weight: bold;
+    line-height: 1.8; /* Espaciado entre párrafos */
+    font-family: 'Copperplate', 'Courier New', Courier, monospace;
+    text-align: left; /* Alinea el texto a la izquierda */
+    left: 400px;
+}
+
+.carousel:hover .header-text {
+    opacity: 0; /* Ocultar el texto al pasar el cursor */
+}
+.carousel img {
+    width: 100%;
+    height:600px;
+}
+/* para texto */
+.header-text {
+    text-align: left;
+    max-width: 600px; /* Ajusta el valor según el ancho máximo deseado */
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+    background-color: transparent; /* Establecer el fondo a transparente */
+    font-family: 'Copperplate', 'Courier New', Courier, monospace;
+  }
+
+  .header-text h1 {
+    text-align: left; /* Alinear el título a la izquierda */
+  }
+
+  .header-text p,
+  .header-text a {
+    text-align: justify; /* Justificar el texto */
+    font-family: 'Copperplate', 'Courier New', Courier, monospace;
+    text-align: justify; /* Justificar el texto */
+  }
+  body {
+    margin: 0; /* Elimina los márgenes predeterminados del cuerpo del documento */
+    padding: 0; /* Elimina el padding predeterminado del cuerpo del documento */
+  }
+
+  .header-text {
+    max-width: 600px; /* Ajusta el ancho máximo del contenedor según tu preferencia */
+    margin: 0 auto; /* Centra horizontalmente el contenedor */
+    text-align: left; /* Alinea el texto a la izquierda */
+    text-align: justify; /* Justificar el texto */
+    color: white; /* Cambiar el color del texto a blanco */
+    font-family: 'Georgia', 'Copperplate', 'Courier New', Courier, monospace; /* Cambiar la fuente a Georgia */
+  
+  }
+
+  .header-text h1 {
+    font-weight: bold; /* Establecer el texto del título en negrita */
+  }
+ /* Estilos generales */
+body {
+    background-color: black;
+    color: white;
+    line-height: 2;
+    text-align: justify;
+    font-family: 'Georgia', 'Copperplate', 'Courier New', Courier, monospace; /* Cambiar la fuente a Georgia */
+}
+
+
+/* Estilos para los iconos */
+.fa-solid,
+.fa-brands {
+    margin-right: 5px;
+    color: red;
+}
+
+/* Estilos para la sección de dirección */
+.header-dir {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: left; /* Alineación a la izquierda */
+    left: 5px;
+    font-family: 'Georgia', 'Copperplate', 'Courier New', Courier, monospace; /* Cambiar la fuente a Georgia */
+}
+
+.dir {
+    margin: 10px 0;
+}
+
+/* Estilos para los encabezados */
+h3 {
+    margin-bottom: 5px;
+}
+
+/* Estilos para los párrafos */
+p {
+    margin: 0;
+    margin-bottom: 2em; /* Espacio entre párrafos de 2 unidades */
+}
+
+/*Para el formulario*/
+        
+        .dir {
+            width: 3px;
+            text-align: left;
+            font-family: 'Georgia', 'Copperplate', 'Courier New', Courier, monospace;
+        }
+        p {
+            width: 500px;
+            font-family: 'Georgia', 'Copperplate', 'Courier New', Courier, monospace;
+            text-align: justify;
+            text-justify: inter-word;
+            margin-bottom: 3px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        .form-group input,
+        .form-group textarea {
+            margin-bottom: 10px; /* Espacio entre campos */
+             
+            padding: 8px;
+              border: none; /* Remove the full border */
+              border-bottom: 1px solid #ccc; /* Add bottom border */
+              background-color: rgba(255, 0, 0, 0.1); /* Light red background */
+              
+             
+          height: 8px;
+          width: 400px;
+          color:#fff;
+          font-family: 'Copperplate', 'Courier New', Courier, monospace;
+        }
+        
+        .form-group textarea {
+            resize: vertical;
+        }
+        
+        .contact-form {
+    background-color: rgba(250, 0, 0, 0.10);
+    width: 430px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 3px solid red;
+    border-radius: 50px;
+    color: black;
+    font-family: 'Copperplate', 'Courier New', Courier, monospace;
+    color: white;
+
+    /* Elimina las propiedades float: left; y float: right; */
+    /* Ajusta la altura según sea necesario */
+  
+    
+       
+      
+        .form-group button {
+            background-color: red;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            display: inline-block;
+    
+        }
+
+        .form-group button:hover {
+            background-color: darkred;
+        }
+   
+    
+        button[type="submit"] {
+            background-color: #d62424;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            display: inline-block;
+            margin: 0 10px; /* Espaciado de 3 unidades a la izquierda y a la derecha */
+        }
+        
+        
+       /* Estilos para los campos del formulario, por ejemplo: */
+       .contact-form input[type="text"],
+       .contact-form textarea {
+        margin-bottom: 10px; /* Espacio entre campos */
+             
+         padding: 8px;
+           border: none; /* Remove the full border */
+           border-bottom: 1px solid #ccc; /* Add bottom border */
+           background-color: rgba(255, 0, 0, 0.1); /* Light red background */
+           color:#fff;
+          
+       height: 5px; /* Adjust height as needed */
+           /* Otros estilos necesarios */
+       }
+       
+        .map-container {
+            width: 50%; /* Ancho del mapa */
+            height: 450px; /* Altura del mapa */
+            box-sizing: border-box;
+            position: relative;
+            left: 800px;
+        }
+        /* Estilos para la línea roja en el pie de página */
+    }
