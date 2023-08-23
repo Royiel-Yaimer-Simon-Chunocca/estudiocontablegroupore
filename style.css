@@ -345,12 +345,4 @@ p {
            /* Otros estilos necesarios */
        }
        
-        .map-container {
-            width: 50%; /* Ancho del mapa */
-            height: 450px; /* Altura del mapa */
-            box-sizing: border-box;
-            position: relative;
-            left: 800px;
-        }
-        /* Estilos para la línea roja en el pie de página */
     }
