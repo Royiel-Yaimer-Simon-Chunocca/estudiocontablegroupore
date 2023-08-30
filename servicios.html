@@ -10,16 +10,51 @@
 <body>
     <header class="header">
         <div class="menu container">
-         <a href="#" class="logo" >Logo</a>
-         <input type="checkbox" id="menu">
-         <label for="menu">
-             <img src="img/menu.png" class="menu-icono" alt="">
-         </label>
+            
+            <a href="index.html" class="logo" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img style="height: 60px;width: 250px;"src="img/logoes.png"></a>
          <nav class="navbar">
              <li><a href="index.html">INICIO</a></li>
              <li><a href="servicios.html">SERVICIOS</a></li>
              <li><a href="cotizar.html">COTIZACIÓN</a></li>
-             <li><a href="index.html">CONTÁCTENOS</a></li>
+             <li class="dropdown"><a href="index.html">CONTÁCTENOS</a>
+    
+                <ul style="border: 1px solid red;background-color: rgba(255, 0, 0, 0.1); font-family: 'Copperplate', 'Courier New', Courier, monospace;color:#fff;border-radius: 10px;height: 100px;width: 100px;">
+                   <li><a href="#wasa" >WHATSAPP</a></li>
+                   <li><a href="#face" >FACEBOOK</a></li>
+                </ul>
+                <style>
+                   .dropdown {
+                       position: relative;
+                       display: inline-block;
+                   }
+                   
+                   .dropdown ul {
+                       display: none;
+                       position: absolute;
+                       top: 100%;
+                       left: 0;
+                       background-color: #fff;
+                       border: 1px solid #ccc;
+                       padding: 0;
+                       list-style: none;
+                       z-index: 1;
+                   }
+                   
+                   .dropdown:hover ul {
+                       display: block;
+                   }
+                   
+                   .dropdown li {
+                       padding: 5px;
+                   }
+                   
+                   .dropdown li a {
+                       text-decoration: none;
+                       color: #333;
+                   }
+                   
+                   </style> 
+        </li>
          </nav>
         </div>
         <br>
@@ -76,17 +111,23 @@
                         <p>llaldckncbcbccvcv</p>
                      <a href="cotizar.html" class="btn-1">Cotizar</a>
                     </div>
-                    <div class="servicios9" style="padding: 10px;height: 300px; width: 300px; float: right; margin-right:290px;margin-left: 10px; font-family: 'Copperplate', 'Courier New', Courier, monospace;color:#fff;border-radius: 20px;">
-                        <h3 style="font-family: 'Copperplate', 'Courier New', Courier; color: red;">REDES</h3>
-                        <a href="https://wa.me/51977667112?text=Deseo informe" target="_blank"><img src="img/what.jpg" style="width: 200px;height: 150px;"></a>
+                    
                                 
                                 </div>
+                                <div id="wasa" class="wasa" style="padding: 5px; height: 300px; width: 300px; float: right; margin-right: 10px; margin-left: 8px; font-family: 'Copperplate', 'Courier New', Courier, monospace; color: #fff; border-radius: 20px;">
+                                    <br>
+                                    <a href="https://wa.me/51977667112?text=Deseo informe" target="_blank">
+                                        <img src="img/what.jpg" style="width: 100px; height: 80px; border: 2px solid red;border-radius: 20px;">
+                                    </a>
+                                    <br>
+                                    <div id="face" class="face">
+                                        <a href="https://www.facebook.com/groupore/?text=Deseo informe" target="_blank">
+                                            <img src="img/facebook.png" style="width: 100px; height:80px;border: 2px solid red;border-radius: 20px;">
+                                        </a>
+                                    </div>
+                                </div>
       <br><br><br><br><br> <br><br><br><br><br><br>
-        <div class="pie" style="background-color: red;" >
-                    
-        </div>
-            
-        <div class="pie" style="background-color: brown;">
+        <div class="pie" style="background-color: brown;height: 35px;width:100%;">
             <p style="font-family: 'Copperplate', 'Courier New', Courier;font-style: italic;text-align: center;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ESTUDIO CONTABLE GROUP ORE EIRL</p>
           </div>
        </header>

@@ -1,11 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Copperplate&display=swap');
+
 .menu {
     background-color: #333; /* Color de fondo negro claro */
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    position: fixed; /* Agregamos esta línea para fijar el encabezado */
+    top: 0; /* Fijamos el encabezado en la parte superior */
+    width: 100%; /* Ancho completo */
+    height: 40px;
+    z-index: 1000; /* Aseguramos que esté por encima de otros elementos */
 }
+/* Agrega margen derecho a los elementos de la lista */
+.navbar li {
+    margin-right: 30px; /* Puedes ajustar este valor según tus necesidades */
+}
+
+/* Opcional: Agrega espacio interno para que el texto no esté muy cerca del borde */
+
+
 
 .logo {
     color: #fff; /* Color de texto blanco */
@@ -348,6 +362,20 @@ p {
        
     
     
-    
-    
-    }
+/* Estilos para pantallas grandes */
+@media (min-width: 768px) {
+    /* Aquí puedes agregar estilos específicos para pantallas medianas y grandes */
+}
+
+/* Estilos para pantallas medianas */
+@media (max-width: 767px) {
+    /* Aquí puedes agregar estilos específicos para pantallas medianas */
+}
+
+/* Estilos para pantallas pequeñas */
+@media (max-width: 480px) {
+    /* Aquí puedes agregar estilos específicos para pantallas pequeñas */
+}
+ /* Estilos para el menú desplegable */
+ 
+}

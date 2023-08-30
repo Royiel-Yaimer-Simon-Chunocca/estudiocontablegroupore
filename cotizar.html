@@ -10,18 +10,103 @@
 <body>
     <header class="header">
         <div class="menu container">
-         <a href="#" class="logo" >Logo</a>
-         <input type="checkbox" id="menu">
-         <label for="menu">
-             <img src="img/menu.png" class="menu-icono" alt="">
-         </label>
+            <a href="index.html" class="logo" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img style="height: 60px;width: 250px;"src="img/logoes.png"></a>
          <nav class="navbar">
              <li><a href="index.html">INICIO</a></li>
-             <li><a href="servicios.html">SERVICIOS</a></li>
+             <li class="dropdown"><a href="servicios.html">SERVICIOS</a>
+                <ul style="background-color: rgba(255, 0, 0, 0.1); font-family: 'Copperplate', 'Courier New', Courier, monospace;color:#fff;border-radius: 20px;">
+                   <li style="color: #fff;"><a href="servicios.html">CONTABLE</a></li>
+                   <li><a href="servicios.html">TRIBUTARIO</a></li>
+                   <li><a href="servicios.html">FINANCIERA</a></li>
+                   <li><a href="servicios.html">LABORAL</a></li>
+                   <li><a href="servicios.html">AUDITORÍAS</a></li>
+                   <li><a href="servicios.html">SUNAFIL</a></li>
+                   <li><a href="servicios.html">APELACIONES</a></li>
+                   <li><a href="servicios.html">TRÁMITES RNP</a></li>
+                   <li><a href="servicios.html">OSCE</a></li>
+                   <li><a href="servicios.html">SUNARP</a></li>
+                </ul>
+                <style>
+                   .dropdown {
+                       position: relative;
+                       display: inline-block;
+                   }
+                   
+                   .dropdown ul {
+                       display: none;
+                       position: absolute;
+                       top: 100%;
+                       left: 0;
+                       background-color: #fff;
+                       border: 1px solid #ccc;
+                       padding: 0;
+                       list-style: none;
+                       z-index: 1;
+                   }
+                   
+                   .dropdown:hover ul {
+                       display: block;
+                   }
+                   
+                   .dropdown li {
+                       padding: 5px;
+                   }
+                   
+                   .dropdown li a {
+                       text-decoration: none;
+                       color: #333;
+                   }
+                   
+                   </style>
+               </li>
              <li><a href="cotizar.html">COTIZACIÓN</a></li>
-             <li><a href="index.html">CONTÁCTENOS</a></li>
+             <li class="dropdown"><a href="#contact-section" onclick="scrollToSection('#contact-section')">CONTÁCTENOS</a>
+    
+                <ul style="border: 1px solid red;background-color: rgba(255, 0, 0, 0.1); font-family: 'Copperplate', 'Courier New', Courier, monospace;color:#fff;border-radius: 10px;text-align: center;height: 100px;width: 100px;">
+                   <li><a href="#wasa" >WHATSAPP</a></li>
+                   <li><a href="#face" >FACEBOOK</a></li>
+                </ul>
+                <style>
+                   .dropdown {
+                       position: relative;
+                       display: inline-block;
+                   }
+                   
+                   .dropdown ul {
+                       display: none;
+                       position: absolute;
+                       top: 100%;
+                       left: 0;
+                       background-color: #fff;
+                       border: 1px solid #ccc;
+                       padding: 0;
+                       list-style: none;
+                       z-index: 1;
+                   }
+                   
+                   .dropdown:hover ul {
+                       display: block;
+                   }
+                   
+                   .dropdown li {
+                       padding: 5px;
+                   }
+                   
+                   .dropdown li a {
+                       text-decoration: none;
+                       color: #333;
+                   }
+                   
+                   </style> 
+        </li>
          </nav>
         </div>
+         <div class="texto">
+            <h2 style="font-family: 'Copperplate', 'Courier New', Courier;color: red;margin-left: 550px">COTIZAR SERVICIOS</h2>
+         <p style="font-family: 'Copperplate', 'Courier New', Courier;margin-left: 400px;">El Estudio Contable Group Ore EIRL agradece su visita para cotización de asesorías, consultas,
+            sugerencias y/o comentarios por 
+            favor complete el siguiente formulario y nos comunicaremos a la brevedad.</p>
+         </div>
         <section class="contact-form container">
             <h2>COTIZACIONES</h2>
             <form action="https://formsubmit.co/studiocontable.groupore@gmail.com" method="POST">
@@ -67,11 +152,38 @@
                     <label for="mensaje">Mensaje</label>
                     <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
                 </div>
-                <button type="submit">Enviar</button>
+                <button type="submit" style="margin: 0 180px; ">Enviar</button>
             </form>
            </section>
-           <div class="pie" style="background-color: brown;">
-            <p style="font-family: 'Copperplate', 'Courier New', Courier;font-style: italic;text-align: center;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ESTUDIO CONTABLE GROUP ORE EIRL</p>
-          </div>
-</body>
+  
+    
+    <div class="header-dir" id="contact-section">
+    
+        <div class="servicios8" style="padding: 10px;height: 300px; width: 300px; float: left;  font-family: 'Copperplate', 'Courier New', Courier, monospace;color:#fff;border-radius: 20px;">
+           <h3 style="font-family: 'Copperplate', 'Courier New', Courier;color: red;">CONTÁCTENOS</h3>
+
+   <p style="font-size: 1em;font-family: 'Copperplate', 'Courier New', Courier;text-align: justify;"><i class="fa-solid fa-envelope"></i>studiocontable.groupore@gmail.com</p>
+ 
+   <p style="font-size: 1em;font-family: 'Copperplate', 'Courier New', Courier;text-align: justify;"><i class="fa-brands fa-whatsapp"></i>977667112</p>
+  
+   <p style="font-size: 1em;font-family: 'Copperplate', 'Courier New', Courier;text-align: justify;"><i class="fa-solid fa-phone"></i>931977748</p>
+       <h3 style="font-family: 'Copperplate', 'Courier New', Courier;color: red;">DIRECCIÓN</h3>
+       <p style="font-size: 1em;font-family: 'Copperplate', 'Courier New', Courier;text-align: justify;"><i class="fa-solid fa-location-dot"></i>JR. 28 DE JULIO Nº 669-AYACUCHO-HUAMANGA</p>
+       <h3 style="font-family: 'Copperplate', 'Courier New', Courier;color: red;">HORARIO DE ATENCIÓN</h3>
+       <p style="font-size: 1em;font-family: 'Copperplate', 'Courier New', Courier;text-align: justify;"><i class="fa-solid fa-check"></i>L-V 9:00 AM-7:00 PM</p>
+       <p style="font-size: 1em;font-family: 'Copperplate', 'Courier New', Courier;text-align: justify;"><i class="fa-solid fa-check"></i>S 9:00 AM-1:00 PM</p>
+   </div> 
+        <br>
+        <div id="wasa" class="wasa" style="padding: 5px; height: 300px; width: 300px; float: right; margin-right: 10px; margin-left: 8px; font-family: 'Copperplate', 'Courier New', Courier, monospace; color: #fff; border-radius: 20px;">
+            <br>
+            <a href="https://wa.me/51977667112?text=Deseo informe" target="_blank">
+                <img src="img/what.jpg" style="width: 100px; height: 80px; border: 2px solid red;border-radius: 20px;">
+            </a>
+            <br>
+            <div id="face" class="face">
+                <a href="https://www.facebook.com/groupore/?text=Deseo informe" target="_blank">
+                    <img src="img/facebook.png" style="width: 100px; height: 80px;border: 2px solid red;border-radius: 20px;">
+                </a>
+            </div>
+        </div>
 </html>

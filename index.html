@@ -10,16 +10,96 @@
 <body>
    <header class="header">
    <div class="menu container">
-    <a href="#" class="logo" >Logo</a>
-    <input type="checkbox" id="menu">
-    <label for="menu">
-        <img src="img/menu.png" class="menu-icono" alt="">
-    </label>
+    <a href="servicios.html" class="logo" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img style="height: 60px;width: 250px;"src="img/logoes.png"></a>
     <nav class="navbar">
         <li><a href="index.html">INICIO</a></li>
-        <li><a href="servicios.html">SERVICIOS</a></li>
+        <li class="dropdown"><a href="servicios.html">SERVICIOS</a>
+         <ul style="border: 1px solid red;background-color: rgba(255, 0, 0, 0.1); font-family: 'Copperplate', 'Courier New', Courier, monospace;color:#fff;border-radius: 20px;">
+            <li style="color: #fff;"><a href="servicios.html">CONTABLE</a></li>
+            <li><a href="servicios.html">TRIBUTARIO</a></li>
+            <li><a href="servicios.html">FINANCIERA</a></li>
+            <li><a href="servicios.html">LABORAL</a></li>
+            <li><a href="servicios.html">AUDITORÍAS</a></li>
+            <li><a href="servicios.html">SUNAFIL</a></li>
+            <li><a href="servicios.html">APELACIONES</a></li>
+            <li><a href="servicios.html">TRÁMITES RNP</a></li>
+            <li><a href="servicios.html">OSCE</a></li>
+            <li><a href="servicios.html">SUNARP</a></li>
+         </ul>
+         <style>
+            .dropdown {
+                position: relative;
+                display: inline-block;
+            }
+            
+            .dropdown ul {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                background-color: #fff;
+                border: 1px solid #ccc;
+                padding: 0;
+                list-style: none;
+                z-index: 1;
+            }
+            
+            .dropdown:hover ul {
+                display: block;
+            }
+            
+            .dropdown li {
+                padding: 5px;
+            }
+            
+            .dropdown li a {
+                text-decoration: none;
+                color: #333;
+            }
+            
+            </style>
+        </li>
+            
         <li><a href="cotizar.html">COTIZACIÓN</a></li>
-        <li><a href="#contact-section" onclick="scrollToSection('#contact-section')">CONTÁCTENOS</a></li>
+        <li class="dropdown"><a href="#contact-section" onclick="scrollToSection('#contact-section')">CONTÁCTENOS</a>
+    
+                <ul style="border: 1px solid red;background-color: rgba(255, 0, 0, 0.1); font-family: 'Copperplate', 'Courier New', Courier, monospace;color:#fff;border-radius: 10px; height: 100px;width: 100px;">
+                   <li><a href="#wasa">WHATSAPP</a></li>
+                   <li><a href="#face" >FACEBOOK</a></li>
+                </ul>
+                <style>
+                   .dropdown {
+                       position: relative;
+                       display: inline-block;
+                   }
+                   
+                   .dropdown ul {
+                       display: none;
+                       position: absolute;
+                       top: 100%;
+                       left: 0;
+                       background-color: #fff;
+                       border: 1px solid #ccc;
+                       padding: 0;
+                       list-style: none;
+                       z-index: 1;
+                   }
+                   
+                   .dropdown:hover ul {
+                       display: block;
+                   }
+                   
+                   .dropdown li {
+                       padding: 5px;
+                   }
+                   
+                   .dropdown li a {
+                       text-decoration: none;
+                       color: #333;
+                   }
+                   
+                   </style> 
+        </li>
     </nav>
    </div>
    <div class="carousel">
@@ -34,7 +114,7 @@
     <div class="header-text">
         <br>
         <br>
-        <span style="font-family: 'Copperplate', 'Courier New', Courier;color: red;" >ESTUDIO CONTABLE GROUP ORE E.I.R.L</span>  
+        <b><span style="font-family: 'Copperplate', 'Courier New', Courier;color: red;" >ESTUDIO CONTABLE GROUP ORE E.I.R.L</span></b>
         <h1 style="font-family: 'Copperplate', 'Courier New', Courier;">EXPERIENCIA Y COMPROMISO</h1>
         <p>
          ¡Nos enorgullecemos de nuestra extensa trayectoria en el sector! 
@@ -73,7 +153,7 @@
     </div>    
     <br><br>  
 <div class="servicios9" style="padding: 10px;height: 300px; width: 300px; float: right; margin-right:290px;margin-left: 10px; font-family: 'Copperplate', 'Courier New', Courier, monospace;color:#fff;border-radius: 20px;">
-    <iframe style="border: 2px solid red;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3884.9090304125684!2d-74.23000572568199!3d-13.168135463790723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91127db9a145c8a5%3A0x463830e452bad1ca!2sSUNAT%20AYACUCHO!5e0!3m2!1ses-419!2spe!4v1692120379272!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
+    <iframe style="border: 2px solid red;border-radius: 20px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3884.9090304125684!2d-74.23000572568199!3d-13.168135463790723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91127db9a145c8a5%3A0x463830e452bad1ca!2sSUNAT%20AYACUCHO!5e0!3m2!1ses-419!2spe!4v1692120379272!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  
     
                 </div>
     
@@ -97,25 +177,17 @@
         </p>
         </div>
         <br>
-<div class="servicios9" style="padding: 10px;height: 300px; width: 300px; float: right; margin-right:290px;margin-left: 10px; font-family: 'Copperplate', 'Courier New', Courier, monospace;color:#fff;border-radius: 20px;">
-    <h3 style="font-family: 'Copperplate', 'Courier New', Courier; color: red;text-align: center;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;REDES</h3>
-    <br>
-    <a href="https://wa.me/51977667112?text=Deseo informe" target="_blank"><img src="img/what.jpg" style="width: 200px;height: 150px;"></a>
-    <br>
-    <a href="https://www.facebook.com/groupore/?text=Deseo informe" target="_blank">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/facebook.png" style="width: 200px;height: 150px;"></a> 
+        <div id="wasa" class="wasa" style="padding: 5px; height: 300px; width: 300px; float: right; margin-right: 10px; margin-left: 8px; font-family: 'Copperplate', 'Courier New', Courier, monospace; color: #fff; border-radius: 20px;">
+            <br>
+            <a href="https://wa.me/51977667112?text=Deseo informe" target="_blank">
+                <img src="img/what.jpg" style="width: 100px; height: 80px; border: 2px solid red;border-radius: 20px;">
+            </a>
+            <br>
+            <div id="face" class="face">
+                <a href="https://www.facebook.com/groupore/?text=Deseo informe" target="_blank">
+                    <img src="img/facebook.png" style="width: 100px; height: 80px;border: 2px solid red;border-radius: 20px;">
+                </a>
             </div>
-    
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <br>
-    <div class="pie" style="background-color: brown; ">
-      <p style="font-family: 'Copperplate', 'Courier New', Courier;font-style: italic;text-align: center;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ESTUDIO CONTABLE GROUP ORE EIRL</p>
-    </div>
-   
-        
-        
-        
-        
-        
-        
+        </div>   
 </body>
 </html>
