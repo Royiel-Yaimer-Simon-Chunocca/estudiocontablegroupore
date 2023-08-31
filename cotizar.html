@@ -14,18 +14,21 @@
          <nav class="navbar">
              <li><a href="index.html">INICIO</a></li>
              <li class="dropdown"><a href="servicios.html">SERVICIOS</a>
-                <ul style="background-color: rgba(255, 0, 0, 0.1); font-family: 'Copperplate', 'Courier New', Courier, monospace;color:#fff;border-radius: 20px;">
-                   <li style="color: #fff;"><a href="servicios.html">CONTABLE</a></li>
-                   <li><a href="servicios.html">TRIBUTARIO</a></li>
-                   <li><a href="servicios.html">FINANCIERA</a></li>
-                   <li><a href="servicios.html">LABORAL</a></li>
-                   <li><a href="servicios.html">AUDITORÍAS</a></li>
-                   <li><a href="servicios.html">SUNAFIL</a></li>
-                   <li><a href="servicios.html">APELACIONES</a></li>
-                   <li><a href="servicios.html">TRÁMITES RNP</a></li>
-                   <li><a href="servicios.html">OSCE</a></li>
-                   <li><a href="servicios.html">SUNARP</a></li>
-                </ul>
+                <ul  class="servicios-list" style="width: 230px;height: 250px;background-color: darkred; border-radius: 20px;">
+            <li ><a href="servicios.html" style=" font-family: 'Copperplate', 'Courier New', Courier, monospace; height: 100px;width: 300px;color:#fff; font-size: 12px;">ASESORÍA CONTABLE</a></li>
+            <li><a href="servicios.html" style=" font-family: 'Copperplate', 'Courier New', Courier, monospace; height: 100px;width: 300px;color:#fff; font-size: 12px;">ASESORÍA TRIBUTARIA</a></li>
+            <li><a href="servicios.html" style=" font-family: 'Copperplate', 'Courier New', Courier, monospace; height: 100px;width: 300px;color:#fff; font-size: 12px;">ASESORÍA FINANCIERA</a></li>
+            <li><a href="servicios.html" style=" font-family: 'Copperplate', 'Courier New', Courier, monospace; height: 100px;width: 100px;color:#fff; font-size: 12px;">ASESORÍA LABORAL</a></li>
+            <li><a href="servicios.html" style=" font-family: 'Copperplate', 'Courier New', Courier, monospace; height: 100px;width: 100px;color:#fff; font-size: 12px;">CONSTITUCIÓN DE EMPRESAS</a></li>
+            <li><a href="servicios.html" style=" font-family: 'Copperplate', 'Courier New', Courier, monospace; height: 100px;width: 100px;color:#fff;font-size: 12px; ">EMISIÓN DE COMPROBANTES</a></li>
+        <style>
+            .servicios-list li a:hover {
+    color: red;
+}
+        </style>
+              
+                 </ul>
+
                 <style>
                    .dropdown {
                        position: relative;
@@ -56,15 +59,17 @@
                        text-decoration: none;
                        color: #333;
                    }
-                   
+                   li a:hover {
+    color: red;
+  }
                    </style>
                </li>
              <li><a href="cotizar.html">COTIZACIÓN</a></li>
              <li class="dropdown"><a href="#contact-section" onclick="scrollToSection('#contact-section')">CONTÁCTENOS</a>
     
-                <ul style="border: 1px solid red;background-color: rgba(255, 0, 0, 0.1); font-family: 'Copperplate', 'Courier New', Courier, monospace;color:#fff;border-radius: 10px;text-align: center;height: 100px;width: 100px;">
-                   <li><a href="#wasa" >WHATSAPP</a></li>
-                   <li><a href="#face" >FACEBOOK</a></li>
+                <ul style="width: 110px;height: 100px;background-color: darkred; border-radius: 20px;">
+                   <li><a href="#wasa" style="font-family: 'Copperplate', 'Courier New', Courier, monospace; height: 100px;width: 100px;color:#fff;font-size: 12px; ">WHATSAPP</a></li>
+                   <li><a href="#face" style="font-family: 'Copperplate', 'Courier New', Courier, monospace; height: 100px;width: 100px;color:#fff;font-size: 12px; " >FACEBOOK</a></li>
                 </ul>
                 <style>
                    .dropdown {
@@ -134,16 +139,13 @@
                    <label for="opciones">Cotización</label>
                    <select id="opciones" name="opciones" style="background-color: rgba(255, 0, 0, 0.1); font-family: 'Copperplate', 'Courier New', Courier, monospace;color:#fff;" >
                        <option name="otro" style="background-color: rgba(255, 0, 0, 0.4); font-family: 'Copperplate', 'Courier New', Courier, monospace;color:#fff;"><p>Seleccionar</p></option>
-                       <option name="contable" style="background-color: rgba(255, 0, 0, 0.4); font-family: 'Copperplate', 'Courier New', Courier, monospace;color:#fff;">Contable</option>
-                       <option name="tributario" style="background-color: rgba(255, 0, 0, 0.4); font-family: 'Copperplate', 'Courier New', Courier, monospace;color:#fff;">Tributario</option>
-                       <option name="financiera" style="background-color: rgba(255, 0, 0, 0.4); font-family: 'Copperplate', 'Courier New', Courier, monospace;color:#fff;">Financiera</option>
-                       <option name="laboral" style="background-color: rgba(255, 0, 0, 0.4); font-family: 'Copperplate', 'Courier New', Courier, monospace;color:#fff;">Laboral</option>
-                       <option name="auditoria" style="background-color: rgba(255, 0, 0, 0.4); font-family: 'Copperplate', 'Courier New', Courier, monospace;color:#fff;">Auditorías</option>
-                       <option name="sunafil" style="background-color: rgba(255, 0, 0, 0.4); font-family: 'Copperplate', 'Courier New', Courier, monospace;color:#fff;">Sunafil</option>
-                       <option name="apelaciones" style="background-color: rgba(255, 0, 0, 0.4); font-family: 'Copperplate', 'Courier New', Courier, monospace;color:#fff;">Apelaciones</option>
-                       <option name="rnp" style="background-color: rgba(255, 0, 0, 0.4); font-family: 'Copperplate', 'Courier New', Courier, monospace;color:#fff;">Trámites RNP</option>
-                       <option name="osce" style="background-color: rgba(255, 0, 0, 0.4); font-family: 'Copperplate', 'Courier New', Courier, monospace;color:#fff;">OSCE</option>
-                       <option name="sunarp" style="background-color: rgba(255, 0, 0, 0.4); font-family: 'Copperplate', 'Courier New', Courier, monospace;color:#fff;">SUNARP</option>
+                       <option name="contable" style="background-color: rgba(255, 0, 0, 0.4); font-family: 'Copperplate', 'Courier New', Courier, monospace;color:#fff;">Asesoría Contable</option>
+                       <option name="tributario" style="background-color: rgba(255, 0, 0, 0.4); font-family: 'Copperplate', 'Courier New', Courier, monospace;color:#fff;">Asesoría Tributaria</option>
+                       <option name="financiera" style="background-color: rgba(255, 0, 0, 0.4); font-family: 'Copperplate', 'Courier New', Courier, monospace;color:#fff;">Asesoría Financiera</option>
+                       <option name="laboral" style="background-color: rgba(255, 0, 0, 0.4); font-family: 'Copperplate', 'Courier New', Courier, monospace;color:#fff;">Asesoría Laboral</option>
+                       <option name="auditoria" style="background-color: rgba(255, 0, 0, 0.4); font-family: 'Copperplate', 'Courier New', Courier, monospace;color:#fff;">Constitución de empresas</option>
+                       <option name="sunafil" style="background-color: rgba(255, 0, 0, 0.4); font-family: 'Copperplate', 'Courier New', Courier, monospace;color:#fff;">Emisión de comprobantes electrónicos</option>
+        
                        
                        
                    </select>
@@ -152,7 +154,20 @@
                     <label for="mensaje">Mensaje</label>
                     <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
                 </div>
-                <button type="submit" style="margin: 0 180px; ">Enviar</button>
+                <button type="submit" class="expand-on-hover" style="margin: 0 180px; ">Enviar
+                <style>
+                    .expand-on-hover {
+  margin: 0 180px;
+  transition: transform 0.3s ease; /* Agregar transición suave */
+}
+
+.expand-on-hover:hover {
+  transform: scale(1.1); /* Escala del 110% en el hover */
+}
+
+                </style>
+                
+                </button>
             </form>
            </section>
   
@@ -176,13 +191,39 @@
         <br>
         <div id="wasa" class="wasa" style="padding: 5px; height: 300px; width: 300px; float: right; margin-right: 10px; margin-left: 8px; font-family: 'Copperplate', 'Courier New', Courier, monospace; color: #fff; border-radius: 20px;">
             <br>
-            <a href="https://wa.me/51977667112?text=Deseo informe" target="_blank">
+            <a href="https://wa.me/51977667112?text=Deseo informe" target="_blank" class="image-container">
                 <img src="img/what.jpg" style="width: 100px; height: 80px; border: 2px solid red;border-radius: 20px;">
+                <style>
+                    /* Estilos iniciales para la imagen */
+                    .image-container {
+                        display: inline-block;
+                        overflow: hidden;
+                        transition: transform 0.3s; /* Agregamos una transición suave */
+                    }
+                
+                    /* Cambio de escala cuando el cursor está encima */
+                    .image-container:hover img {
+                        transform: scale(1.1); /* Escala 110% */
+                    }
+                </style>
             </a>
             <br>
             <div id="face" class="face">
-                <a href="https://www.facebook.com/groupore/?text=Deseo informe" target="_blank">
+                <a href="https://www.facebook.com/groupore/?text=Deseo informe" target="_blank" class="image-container">
                     <img src="img/facebook.png" style="width: 100px; height: 80px;border: 2px solid red;border-radius: 20px;">
+                    <style>
+                        /* Estilos iniciales para la imagen */
+                        .image-container {
+                            display: inline-block;
+                            overflow: hidden;
+                            transition: transform 0.3s; /* Agregamos una transición suave */
+                        }
+                    
+                        /* Cambio de escala cuando el cursor está encima */
+                        .image-container:hover img {
+                            transform: scale(1.1); /* Escala 110% */
+                        }
+                    </style>
                 </a>
             </div>
         </div>

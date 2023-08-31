@@ -377,5 +377,8 @@ p {
     /* Aquí puedes agregar estilos específicos para pantallas pequeñas */
 }
  /* Estilos para el menú desplegable */
+ a:hover {
+    color: red; /* Cambia el color a rojo */
+}
  
 }
